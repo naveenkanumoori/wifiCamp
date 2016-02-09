@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
 
 
-@end
+@property (weak, nonatomic) IBOutlet UILabel *bssidLabel;
+@property (weak, nonatomic) IBOutlet UILabel *ssidLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *ssidDataLabel;
+@property(strong,nonatomic) NSDictionary *wifiInfo;
+@property (weak, nonatomic) IBOutlet UILabel *secondsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *macAddress;
+
+-(void)displayValue;
+
+@end
+ 

@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C08F201BAFF3F600124336 /* ProximitySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F1F1BAFF3F600124336 /* ProximitySDK.m */; };
+		84C08F211BAFF3F600124336 /* ProximitySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F1F1BAFF3F600124336 /* ProximitySDK.m */; };
+		84C08F251BAFF5EF00124336 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F241BAFF5EF00124336 /* KeychainItemWrapper.m */; };
+		84C08F261BAFF5EF00124336 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F241BAFF5EF00124336 /* KeychainItemWrapper.m */; };
+		84C08F2D1BB011FD00124336 /* AdPopUpLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F281BB011FD00124336 /* AdPopUpLaunchViewController.m */; };
+		84C08F2E1BB011FD00124336 /* AdPopUpLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F281BB011FD00124336 /* AdPopUpLaunchViewController.m */; };
+		84C08F2F1BB011FD00124336 /* AdPopUpLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F291BB011FD00124336 /* AdPopUpLaunchViewController.xib */; };
+		84C08F301BB011FD00124336 /* AdPopUpLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F291BB011FD00124336 /* AdPopUpLaunchViewController.xib */; };
+		84C08F311BB011FD00124336 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F2B1BB011FD00124336 /* AdViewController.m */; };
+		84C08F321BB011FD00124336 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F2B1BB011FD00124336 /* AdViewController.m */; };
+		84C08F331BB011FD00124336 /* AdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F2C1BB011FD00124336 /* AdViewController.xib */; };
+		84C08F341BB011FD00124336 /* AdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F2C1BB011FD00124336 /* AdViewController.xib */; };
+		84C08F381BB0137800124336 /* SourceUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F361BB0137800124336 /* SourceUrlViewController.m */; };
+		84C08F391BB0137800124336 /* SourceUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C08F361BB0137800124336 /* SourceUrlViewController.m */; };
+		84C08F3A1BB0137800124336 /* SourceUrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F371BB0137800124336 /* SourceUrlViewController.xib */; };
+		84C08F3B1BB0137800124336 /* SourceUrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F371BB0137800124336 /* SourceUrlViewController.xib */; };
+		84C08F3F1BB01EBC00124336 /* icon_image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F3C1BB01EBC00124336 /* icon_image@3x.png */; };
+		84C08F401BB01EBC00124336 /* icon_image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F3C1BB01EBC00124336 /* icon_image@3x.png */; };
+		84C08F411BB01EBC00124336 /* icon_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F3D1BB01EBC00124336 /* icon_image@2x.png */; };
+		84C08F421BB01EBC00124336 /* icon_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F3D1BB01EBC00124336 /* icon_image@2x.png */; };
+		84C08F431BB01EBC00124336 /* icon_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F3E1BB01EBC00124336 /* icon_image.png */; };
+		84C08F441BB01EBC00124336 /* icon_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C08F3E1BB01EBC00124336 /* icon_image.png */; };
 		84DA05BE1B8ED94100DAEFE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA05BD1B8ED94100DAEFE8 /* main.m */; };
 		84DA05C11B8ED94100DAEFE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA05C01B8ED94100DAEFE8 /* AppDelegate.m */; };
 		84DA05C41B8ED94100DAEFE8 /* Wifi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DA05C21B8ED94100DAEFE8 /* Wifi.xcdatamodeld */; };
@@ -15,6 +37,13 @@
 		84DA05CC1B8ED94100DAEFE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DA05CB1B8ED94100DAEFE8 /* Images.xcassets */; };
 		84DA05CF1B8ED94100DAEFE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA05CD1B8ED94100DAEFE8 /* LaunchScreen.xib */; };
 		84DA05DB1B8ED94100DAEFE8 /* WifiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA05DA1B8ED94100DAEFE8 /* WifiTests.m */; };
+		84DA05E51B8EDAF600DAEFE8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA05E41B8EDAF600DAEFE8 /* SystemConfiguration.framework */; };
+		84DA05E71B8EDB3E00DAEFE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA05E61B8EDB3E00DAEFE8 /* UIKit.framework */; };
+		84DA05E91B8EDB4500DAEFE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA05E81B8EDB4500DAEFE8 /* Foundation.framework */; };
+		84DA05EB1B8EDB4E00DAEFE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA05EA1B8EDB4E00DAEFE8 /* CoreGraphics.framework */; };
+		84DA06231B996EFD00DAEFE8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA06221B996EFD00DAEFE8 /* Reachability.m */; };
+		84DA06241B996EFD00DAEFE8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA06221B996EFD00DAEFE8 /* Reachability.m */; };
+		84EBA8EB1BBD435A009EE737 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EBA8EA1BBD435A009EE737 /* NetworkExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +57,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84C08F1E1BAFF3F600124336 /* ProximitySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximitySDK.h; sourceTree = "<group>"; };
+		84C08F1F1BAFF3F600124336 /* ProximitySDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximitySDK.m; sourceTree = "<group>"; };
+		84C08F221BAFF55A00124336 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		84C08F231BAFF5EF00124336 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		84C08F241BAFF5EF00124336 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		84C08F271BB011FD00124336 /* AdPopUpLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPopUpLaunchViewController.h; sourceTree = "<group>"; };
+		84C08F281BB011FD00124336 /* AdPopUpLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPopUpLaunchViewController.m; sourceTree = "<group>"; };
+		84C08F291BB011FD00124336 /* AdPopUpLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdPopUpLaunchViewController.xib; sourceTree = "<group>"; };
+		84C08F2A1BB011FD00124336 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		84C08F2B1BB011FD00124336 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		84C08F2C1BB011FD00124336 /* AdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdViewController.xib; sourceTree = "<group>"; };
+		84C08F351BB0137800124336 /* SourceUrlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceUrlViewController.h; sourceTree = "<group>"; };
+		84C08F361BB0137800124336 /* SourceUrlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceUrlViewController.m; sourceTree = "<group>"; };
+		84C08F371BB0137800124336 /* SourceUrlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceUrlViewController.xib; sourceTree = "<group>"; };
+		84C08F3C1BB01EBC00124336 /* icon_image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image@3x.png"; sourceTree = "<group>"; };
+		84C08F3D1BB01EBC00124336 /* icon_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image@2x.png"; sourceTree = "<group>"; };
+		84C08F3E1BB01EBC00124336 /* icon_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_image.png; sourceTree = "<group>"; };
 		84DA05B81B8ED94100DAEFE8 /* Wifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA05BC1B8ED94100DAEFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DA05BD1B8ED94100DAEFE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +88,13 @@
 		84DA05D41B8ED94100DAEFE8 /* WifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA05D91B8ED94100DAEFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DA05DA1B8ED94100DAEFE8 /* WifiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiTests.m; sourceTree = "<group>"; };
+		84DA05E41B8EDAF600DAEFE8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84DA05E61B8EDB3E00DAEFE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DA05E81B8EDB4500DAEFE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DA05EA1B8EDB4E00DAEFE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84DA06211B996EFD00DAEFE8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		84DA06221B996EFD00DAEFE8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		84EBA8EA1BBD435A009EE737 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +102,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EBA8EB1BBD435A009EE737 /* NetworkExtension.framework in Frameworks */,
+				84DA05EB1B8EDB4E00DAEFE8 /* CoreGraphics.framework in Frameworks */,
+				84DA05E91B8EDB4500DAEFE8 /* Foundation.framework in Frameworks */,
+				84DA05E71B8EDB3E00DAEFE8 /* UIKit.framework in Frameworks */,
+				84DA05E51B8EDAF600DAEFE8 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +123,11 @@
 		84DA05AF1B8ED94100DAEFE8 = {
 			isa = PBXGroup;
 			children = (
+				84EBA8EA1BBD435A009EE737 /* NetworkExtension.framework */,
+				84DA05EA1B8EDB4E00DAEFE8 /* CoreGraphics.framework */,
+				84DA05E81B8EDB4500DAEFE8 /* Foundation.framework */,
+				84DA05E61B8EDB3E00DAEFE8 /* UIKit.framework */,
+				84DA05E41B8EDAF600DAEFE8 /* SystemConfiguration.framework */,
 				84DA05BA1B8ED94100DAEFE8 /* Wifi */,
 				84DA05D71B8ED94100DAEFE8 /* WifiTests */,
 				84DA05B91B8ED94100DAEFE8 /* Products */,
@@ -87,6 +150,22 @@
 				84DA05C01B8ED94100DAEFE8 /* AppDelegate.m */,
 				84DA05C51B8ED94100DAEFE8 /* ViewController.h */,
 				84DA05C61B8ED94100DAEFE8 /* ViewController.m */,
+				84C08F271BB011FD00124336 /* AdPopUpLaunchViewController.h */,
+				84C08F281BB011FD00124336 /* AdPopUpLaunchViewController.m */,
+				84C08F291BB011FD00124336 /* AdPopUpLaunchViewController.xib */,
+				84C08F2A1BB011FD00124336 /* AdViewController.h */,
+				84C08F2B1BB011FD00124336 /* AdViewController.m */,
+				84C08F2C1BB011FD00124336 /* AdViewController.xib */,
+				84C08F351BB0137800124336 /* SourceUrlViewController.h */,
+				84C08F361BB0137800124336 /* SourceUrlViewController.m */,
+				84C08F371BB0137800124336 /* SourceUrlViewController.xib */,
+				84DA06211B996EFD00DAEFE8 /* Reachability.h */,
+				84DA06221B996EFD00DAEFE8 /* Reachability.m */,
+				84C08F1E1BAFF3F600124336 /* ProximitySDK.h */,
+				84C08F1F1BAFF3F600124336 /* ProximitySDK.m */,
+				84C08F221BAFF55A00124336 /* Constants.h */,
+				84C08F231BAFF5EF00124336 /* KeychainItemWrapper.h */,
+				84C08F241BAFF5EF00124336 /* KeychainItemWrapper.m */,
 				84DA05C81B8ED94100DAEFE8 /* Main.storyboard */,
 				84DA05CB1B8ED94100DAEFE8 /* Images.xcassets */,
 				84DA05CD1B8ED94100DAEFE8 /* LaunchScreen.xib */,
@@ -99,6 +178,9 @@
 		84DA05BB1B8ED94100DAEFE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84C08F3C1BB01EBC00124336 /* icon_image@3x.png */,
+				84C08F3D1BB01EBC00124336 /* icon_image@2x.png */,
+				84C08F3E1BB01EBC00124336 /* icon_image.png */,
 				84DA05BC1B8ED94100DAEFE8 /* Info.plist */,
 				84DA05BD1B8ED94100DAEFE8 /* main.m */,
 			);
@@ -171,9 +253,11 @@
 				TargetAttributes = {
 					84DA05B71B8ED94100DAEFE8 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = C54YW6LJTD;
 					};
 					84DA05D31B8ED94100DAEFE8 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = C54YW6LJTD;
 						TestTargetID = 84DA05B71B8ED94100DAEFE8;
 					};
 				};
@@ -203,8 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA05CA1B8ED94100DAEFE8 /* Main.storyboard in Resources */,
+				84C08F411BB01EBC00124336 /* icon_image@2x.png in Resources */,
 				84DA05CF1B8ED94100DAEFE8 /* LaunchScreen.xib in Resources */,
+				84C08F331BB011FD00124336 /* AdViewController.xib in Resources */,
+				84C08F3F1BB01EBC00124336 /* icon_image@3x.png in Resources */,
 				84DA05CC1B8ED94100DAEFE8 /* Images.xcassets in Resources */,
+				84C08F431BB01EBC00124336 /* icon_image.png in Resources */,
+				84C08F2F1BB011FD00124336 /* AdPopUpLaunchViewController.xib in Resources */,
+				84C08F3A1BB0137800124336 /* SourceUrlViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +302,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C08F441BB01EBC00124336 /* icon_image.png in Resources */,
+				84C08F301BB011FD00124336 /* AdPopUpLaunchViewController.xib in Resources */,
+				84C08F341BB011FD00124336 /* AdViewController.xib in Resources */,
+				84C08F421BB01EBC00124336 /* icon_image@2x.png in Resources */,
+				84C08F401BB01EBC00124336 /* icon_image@3x.png in Resources */,
+				84C08F3B1BB0137800124336 /* SourceUrlViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +320,14 @@
 			files = (
 				84DA05C41B8ED94100DAEFE8 /* Wifi.xcdatamodeld in Sources */,
 				84DA05C11B8ED94100DAEFE8 /* AppDelegate.m in Sources */,
+				84C08F201BAFF3F600124336 /* ProximitySDK.m in Sources */,
+				84C08F2D1BB011FD00124336 /* AdPopUpLaunchViewController.m in Sources */,
 				84DA05C71B8ED94100DAEFE8 /* ViewController.m in Sources */,
+				84C08F381BB0137800124336 /* SourceUrlViewController.m in Sources */,
 				84DA05BE1B8ED94100DAEFE8 /* main.m in Sources */,
+				84C08F311BB011FD00124336 /* AdViewController.m in Sources */,
+				84DA06231B996EFD00DAEFE8 /* Reachability.m in Sources */,
+				84C08F251BAFF5EF00124336 /* KeychainItemWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C08F261BAFF5EF00124336 /* KeychainItemWrapper.m in Sources */,
+				84DA06241B996EFD00DAEFE8 /* Reachability.m in Sources */,
+				84C08F2E1BB011FD00124336 /* AdPopUpLaunchViewController.m in Sources */,
+				84C08F321BB011FD00124336 /* AdViewController.m in Sources */,
+				84C08F391BB0137800124336 /* SourceUrlViewController.m in Sources */,
 				84DA05DB1B8ED94100DAEFE8 /* WifiTests.m in Sources */,
+				84C08F211BAFF3F600124336 /* ProximitySDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +392,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Connelly (LYRQLZEJ7W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Connelly (LYRQLZEJ7W)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -306,6 +415,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2ff0c46e-1eea-405e-8af8-0bba9c8ef0a7";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +438,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Connelly (LYRQLZEJ7W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Connelly (LYRQLZEJ7W)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -343,6 +454,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2ff0c46e-1eea-405e-8af8-0bba9c8ef0a7";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -353,9 +465,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Wifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.Campaign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -363,9 +480,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Wifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.Campaign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -373,6 +495,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,6 +508,7 @@
 				INFOPLIST_FILE = WifiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wifi.app/Wifi";
 			};
 			name = Debug;
@@ -392,6 +517,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -399,6 +526,7 @@
 				INFOPLIST_FILE = WifiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wifi.app/Wifi";
 			};
 			name = Release;
@@ -422,6 +550,7 @@
 				84DA05E01B8ED94100DAEFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DA05E11B8ED94100DAEFE8 /* Build configuration list for PBXNativeTarget "WifiTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +559,7 @@
 				84DA05E31B8ED94100DAEFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
